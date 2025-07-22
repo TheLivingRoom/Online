@@ -1,0 +1,166 @@
+ body{
+  font-family:Comic Sans MS,Apple Chancery, Tahoma,verdana;
+	font-size:16px;
+  font-family: verdana;
+	line-height:1.6em;
+	color: rgb(255, 255, 255);
+	margin:0;
+  height: 100%;}
+
+/*pseudo background*/
+header{
+  text-align: center;
+	text-decoration: underline;
+	}
+
+.page-intro{
+  /* Class*/
+ 	text-align: center;
+	font-size:14px;
+	width:60%;
+	margin:auto;
+	overflow:hidden;}
+
+ /*Homepage, captains list*/
+.page-intro a {
+  color: #fff;
+  background-color: #333;
+  font-weight: bold;}
+
+  /*attributes by i.d/ name*/
+  #captains,nav li{
+  display:inline;}
+
+  .page-intro a:hover{
+	font-size: 22px;}
+
+ .container {
+  width:80%;
+  text-align: center;
+  margin:auto;
+  overflow:hidden;}
+
+.container h1{
+  /* padding-top: 10%; */
+  font-size: 50px;
+  color: #fff;
+}
+
+.showcase h1{
+  font-family:Comic Sans MS;
+	color:goldenrod;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;}
+
+
+/* Class attributes*/
+/* Style the navbar */
+/************************** Navbar banner */
+
+/*Nav items*/
+
+.main_navbar {
+      background-color: #333;
+      position: sticky;
+      top: 0;
+      min-height: 45px;
+}
+.main_navbar a { /*#= style by class*/
+  float: left;
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;}
+
+.main_navbar a:hover { /*#= style by class*/
+  background-color:gold;
+  color: rgb(158, 28, 28);}
+
+#welcome{
+  text-align: center;
+	color:peachpuff;}	
+
+#home, #news, #contact, #calendar, #about, #test{
+	background-image: url("../images/Captain_cook.png");
+	background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;}  
+
+  #asbestos, #keeping_in_touch, #windows{
+	background-image: url("../images/showcase1.jpg");
+	background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;}  
+
+#main{
+  float:left;
+	width:90%;
+	padding:0 30px;
+	box-sizing: border-box;}
+
+#main-footer{
+  background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;}
+
+#calendar iframe {
+    top: 130%;
+    left: 25%;
+    }
+
+  /*fropdown navbar*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:gold;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:gold;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f8fc14;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}  
+#asbestos img ,#windows img, #keeping_in_touch img{
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  height: auto;
+}
+#contact iframe{
+  margin: auto;
+  display:block;
+  min-height: 80vh;
+  max-width: 80%;
+  height: auto;
+}
